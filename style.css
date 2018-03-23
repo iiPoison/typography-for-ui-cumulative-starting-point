@@ -42,7 +42,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: serif;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
   font-weight: 700;
   line-height: 1.25;
   margin-bottom: 15px;
@@ -77,7 +78,7 @@ h3 {
   }
 }
 p {
-  font-family: sans-serif;
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 16px;
   line-height: 23px;
   margin: 0 0 15px;
@@ -105,7 +106,7 @@ img {
 ======================================== */
 .intro, .content, .footer-related {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1140px;
   padding: 0 15px;
 }
 .intro:before, .intro:after, .content:before, .content:after, .footer-related:before, .footer-related:after, blockquote:before, blockquote:after {
@@ -135,6 +136,7 @@ header {
 }
 .site-header-left li a {
   text-decoration: none;
+  font-family: 'Raleway', Arial, sans-serif;
 }
 .site-header-left li.logo {
   display: inline-block;
@@ -142,6 +144,8 @@ header {
 }
 .site-header-left li.logo a {
   color: #EB4A34;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.3em;
 }
 .site-header-left li.logo a span {
   font-weight: 800;
@@ -150,6 +154,7 @@ header {
 .site-header-right {
   display: inline-block;
   float: right;
+  font-family: 'Raleway', Arial, sans-serif;
 }
 .site-header-right li,
 .footer-right li {
@@ -178,6 +183,7 @@ header {
   text-align: center;
   text-decoration: none;
   transition: opacity 0.5s ease;
+  padding: 15px 20px;
 }
 .button-primary:hover {
   opacity: 0.75;
@@ -193,25 +199,29 @@ p.tag {
   text-align: center;
   margin: 0 auto 2em;
   border-bottom: 1px solid #44E6CC;
-  width: 150px;
+  width: 120px;
   padding-bottom: 0.25em;
   text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
 }
 .intro {
-  padding: 3em 0;
+  padding: 4.5em 0;
 }
 .intro p {
   width: 90%;
   margin: 0 auto 1em;
   display: block;
+  line-height: 1.6;
 }
 .first-letter {
   float: left;
   padding-right: 10px;
-  font-family: serif;
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 7.2em;
   color: #A2F3E6;
-  line-height: 0.8;
+  line-height: 0.7;
+  font-weight: 900;
 }
 .intro a {
   margin: 20px 0 0;
@@ -238,18 +248,25 @@ p.tag {
   clear: both;
   position: relative;
   top: -5px;
-  font-family: sans-serif;
+  font-family: 'Raleway', Arial, sans-serif;
 }
 
 .content {
-  padding: 3em 0;
+  padding: 4.5em 0;
 }
 
 .bio {
-  width: 90%;
+  width: 80%;
   vertical-align: top;
   position: relative;
   margin: 0 auto;
+}
+
+.bio p {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.2;
+  width: 80%;
 }
 img.bio-avatar {
   border-radius: 100%;
@@ -261,12 +278,20 @@ img.bio-avatar {
 }
 .bio-title p {
   display: block;
+  font-style: normal;
+  font-size: 14px;
 }
 .bio-intro {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 24px;
   margin-bottom: 0px;
+}
+
+p.bio-intro {
+  font-family: 'Barlow Condensed', sans-serif;
+  line-height: 1;
+  font-style: normal;
 }
 .bio-intro span {
   text-transform: uppercase;
@@ -282,7 +307,9 @@ img.bio-avatar {
   margin: 2em auto;
 }
 .article-content p {
-
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 blockquote {
@@ -293,7 +320,7 @@ blockquote {
   width: 90%;
 }
 blockquote p {
-  font-family: serif;
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 36px;
   line-height: 1.2;
   text-align: left;
@@ -309,9 +336,9 @@ blockquote p:after {
   margin-top:-20px;
 }
 blockquote > footer {
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 700;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: right;
   color: #333;
@@ -343,6 +370,7 @@ blockquote > footer {
     display: inline-block;
   }
   .intro p {
+
     width: 46%;
     margin: 0 2%;
     display: inline-block;
